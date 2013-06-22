@@ -10,7 +10,8 @@ public class config {
 	}
 	
 	public void createConfigs() {
-		CtfConfig.createConfig();
+		CtfConfig ctf = new CtfConfig(plugin);
+		ctf.createConfig();
 	}
 
 }

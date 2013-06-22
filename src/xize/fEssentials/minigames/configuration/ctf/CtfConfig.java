@@ -12,15 +12,15 @@ import org.bukkit.configuration.file.YamlConfiguration;
 import xize.fEssentials.minigames.fMinigames;
 
 public class CtfConfig {
-	static fMinigames plugin;
+	fMinigames plugin;
 	public CtfConfig(fMinigames plugin) {
-		CtfConfig.plugin = plugin;
+		this.plugin = plugin;
 	}
 	
 	static Logger log = Logger.getLogger("Minecraft");
 	private static HashSet<String> cmdList = new HashSet<String>();
 	
-	public static void createConfig() {
+	public void createConfig() {
 		cmdList.add("/spawn");
 		cmdList.add("/tpa");
 		cmdList.add("/tp");

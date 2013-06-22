@@ -1,0 +1,74 @@
+name: fMinigames
+version: 1.1
+description: fMinigames
+author: Xeph0re
+authors: [] 
+website:
+
+main: xize.fEssentials.minigames.fMinigames
+database: false
+depend: [fEssentials]
+softdepend: []
+
+commands:
+  ctf:
+    description: testing command for now
+    aliases: [ctf]
+    permission:
+    permission-message:
+
+
+permissions:
+#  fEssentials.Owner:
+#    description: Gives access to all plugin commands
+#    children:
+#      fEssentials.home: true
+#      fEssentials.fakeplace: true
+#      fEssentials.compass: true
+#      fEssentials.firefly: true
+#      fEssentials.sethome: true
+#      fEssentials.motd: true
+#      fEssentials.motd.admin: true
+#      fEssentials.motd.show: true
+#      fEssentials.motd.set: true
+#      fEssentials.torch: true
+#      fEssentials.spawn: true
+#      fEssentials.setspawn: true
+#      fEssentials.ban: true
+#      fEssentials.alts: true
+#      fEssentials.createportals: true
+#      fEssentials.checkban: true
+#      fEssentials.list.vanished: true
+#      fEssentials.vanish: true
+#      fEssentials.invsee: true
+#      fEssentials.signs.firework: true
+#      fEssentials.spawner: true
+#      fEssentials.afk: true
+#      fEssentials.boom: true
+#      fEssentials.signs.free: true
+#      fEssentials.FreeSign.place: true
+#      fEssentials.hat: true
+#  fEssentials.staff:
+#    description: Gives access to all plugin commands
+#    children:
+#      fEssentials.home: true
+#      fEssentials.sethome: true
+#      fEssentials.motd: true
+#      fEssentials.motd.admin: true
+#      fEssentials.motd.show: true
+#      fEssentials.motd.set: true
+#      fEssentials.spawn: true
+#      fEssentials.ban: true
+#      fEssentials.alts: true
+#      fEssentials.afk: true
+#      fEssentials.list.vanished: true
+#  fEssentials.default:
+#    description: Gives all default permissions
+#    children:
+#      fEssentials.home: true
+#      fEssentials.spawn: true
+#      fEssentials.sethome: true
+#      fEssentials.motd: true
+#      fEssentials.motd.show: true
+#      fEssentials.list: true
+#      fEssentials.afk: true
