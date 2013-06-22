@@ -24,7 +24,7 @@ public class autorespawn implements Listener {
 			forceRespawn(e.getEntity(), plugin);
 		}
 	}
-
+	
 	public static void forceRespawn(Player player, Plugin plugin) {
 		String version = autorespawn.getVersion(plugin);
 		try {
